@@ -20,61 +20,62 @@
         RED {
             bindings = <&rgb_ug RGB_COLOR_HSB(0,96,51)>;
             key-positions = <54 0>;
-            layers = <1>;
+            layers = <0>;
             timeout-ms = <0>;
         };
 
         ORANGE {
             bindings = <&rgb_ug RGB_COLOR_HSB(33,92,50)>;
             key-positions = <54 1>;
-            layers = <1>;
+            layers = <0>;
         };
 
         YELLOW {
             bindings = <&rgb_ug RGB_COLOR_HSB(55,95,49)>;
             key-positions = <2 54>;
-            layers = <1>;
+            layers = <0>;
         };
 
         GREEN {
             bindings = <&rgb_ug RGB_COLOR_HSB(105,93,50)>;
             key-positions = <3 54>;
-            layers = <1>;
+            layers = <0>;
         };
 
         BLUE {
             bindings = <&rgb_ug RGB_COLOR_HSB(215,95,50)>;
             key-positions = <54 4>;
-            layers = <1>;
+            layers = <0>;
         };
 
         PURPLE {
             bindings = <&rgb_ug RGB_COLOR_HSB(278,95,49)>;
             key-positions = <54 5>;
-            layers = <1>;
+            layers = <0>;
         };
 
         PINK {
             bindings = <&rgb_ug RGB_COLOR_HSB(314,92,50)>;
             key-positions = <54 6>;
+            layers = <0>;
         };
 
         WHITE {
             bindings = <&rgb_ug RGB_COLOR_HSB(0,0,100)>;
             key-positions = <54 7>;
-            layers = <1>;
+            layers = <0>;
         };
 
         LIGHTSON {
             bindings = <&rgb_ug RGB_ON>;
             key-positions = <54 12>;
-            layers = <1>;
+            layers = <0>;
         };
 
         LIGHTSOFF {
             bindings = <&rgb_ug RGB_OFF>;
             key-positions = <54 13>;
-            layers = <1>;
+            layers = <0>;
         };
 
         INC_HUE {
@@ -86,19 +87,19 @@
         DEC_HUE {
             bindings = <&rgb_ug RGB_HUD>;
             key-positions = <54 9>;
-            layers = <1>;
+            layers = <0>;
         };
 
         BRIGHTEN {
             bindings = <&rgb_ug RGB_BRI>;
             key-positions = <54 10>;
-            layers = <1>;
+            layers = <0>;
         };
 
         DARKEN {
             bindings = <&rgb_ug RGB_BRD>;
             key-positions = <54 11>;
-            layers = <1>;
+            layers = <0>;
         };
     };
 
